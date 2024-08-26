@@ -1,5 +1,6 @@
 <template>
   <div class="p-6">
+    <h1>this is an event article</h1>
     <div v-html="eventContent" class="prose"></div>
   </div>
 </template>

@@ -1,10 +1,10 @@
 <template>
   <div class="space-y-12">
     <!-- Hero Section: Full viewport height with text and image -->
-    <section class="flex flex-col md:flex-row items-center justify-center h-screen space-y-6 md:space-y-0 md:space-x-6 bg-teal-100">
+    <section class="flex flex-col md:flex-row items-center justify-center min-h-screen pt-10 md:pt-16 space-y-6 md:space-y-0 md:space-x-6 bg-teal-100">
       <div class="md:w-1/2 text-center md:text-left p-6">
-        <h1 class="text-5xl font-bold mb-4">Helping the Bangladeshi community for over 10,000 years</h1>
-        <p class="text-xl">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Helping the Bangladeshi community for over 10,000 years</h1>
+        <p class="text-lg md:text-xl">
           We are excited to share our projects and events with you. Our team is dedicated to providing the best
           services to our clients. Explore our website to learn more about what we do.
         </p>
@@ -29,8 +29,6 @@
           frameborder="0"
           allowfullscreen
         ></iframe>
-
-
       </div>
     </section>
   </div>

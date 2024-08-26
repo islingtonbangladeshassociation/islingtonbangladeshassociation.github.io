@@ -104,7 +104,7 @@ export default {
       return new Date(date) > new Date();
     },
     goToEvent(id) {
-      this.$router.push(`/events/${id}`);
+      this.$router.push(`/ibal/events/${id}`);
     },
   },
 };

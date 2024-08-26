@@ -6,17 +6,14 @@ import Services from '../views/Services.vue'
 import Events from '../views/Events.vue'
 import EventArticle from '@/views/EventArticle.vue'; // Import the new component
 
-
-// import FindUs from '../views/FindUs.vue'
-
 const routes = [
-  { path: '/', name: 'Home', component: Home },
-  { path: '/projects', name: 'Projects', component: Projects },
-  { path: '/about', name: 'About', component: About },
-  { path: '/services', name: 'Services', component: Services },
-  { path: '/events', name: 'Events', component: Events },
+  { path: '/ibal/', name: 'Home', component: Home },
+  { path: '/ibal/projects', name: 'Projects', component: Projects },
+  { path: '/ibal/about', name: 'About', component: About },
+  { path: '/ibal/services', name: 'Services', component: Services },
+  { path: '/ibal/events', name: 'Events', component: Events },
   {
-    path: '/events/:id', // Dynamic route for event articles
+    path: '/ibal/events/:id', // Dynamic route for event articles
     name: 'EventArticle',
     component: EventArticle,
     props: true, // Pass route params as props to the component
