@@ -24,8 +24,10 @@ export default {
       const filename = `${eventId}.html`;
 
       // Adjust path for GitHub Pages
-      const basePath = process.env.NODE_ENV === 'production' ? '/' : '/';
-      const filePath = `${basePath}/events/${filename}`;
+      // const basePath = process.env.NODE_ENV === 'production' ? '/' : '/';
+      // const filePath = `${basePath}/projects/${filename}`;
+      const filePath = `/events/${filename}`;
+      // const filePath = `${basePath}/events/${filename}`;
 
       try {
         const response = await axios.get(filePath);

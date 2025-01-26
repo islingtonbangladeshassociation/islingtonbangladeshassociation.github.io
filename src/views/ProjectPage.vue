@@ -24,8 +24,9 @@
         const filename = `${projectId}.html`;
   
         // Adjust path for GitHub Pages
-        const basePath = process.env.NODE_ENV === 'production' ? '/' : '/';
-        const filePath = `${basePath}/projects/${filename}`;
+        // const basePath = process.env.NODE_ENV === 'production' ? '/' : '/';
+        // const filePath = `${basePath}/projects/${filename}`;
+        const filePath = `/projects/${filename}`;
   
         try {
           const response = await axios.get(filePath);
