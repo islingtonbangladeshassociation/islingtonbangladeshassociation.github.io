@@ -3,15 +3,14 @@
     <!-- Hero Section: Full viewport height with text and image -->
     <section class="flex flex-col md:flex-row items-center justify-center min-h-screen pt-10 md:pt-16 space-y-6 md:space-y-0 md:space-x-6 bg-teal-100">
       <div class="md:w-1/2 text-center md:text-left p-6">
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">Helping the Bangladeshi community for over 10,000 years</h1>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Supporting the BAME communities and building connections in Islington</h1>
         <p class="text-lg md:text-xl">
-          We are excited to share our projects and events with you. Our team is dedicated to providing the best
-          services to our clients. Explore our website to learn more about what we do.
+          Our team is dedicated to supporting local communities in reaching their full potential. Explore our website to learn more about what we do.
         </p>
       </div>
       <div class="md:w-1/2 flex justify-center p-6">
         <img
-          src="https://images.pexels.com/photos/5511464/pexels-photo-5511464.jpeg"
+          :src="require('@/assets/office_image.png')"
           alt="Sample Image"
           class="max-w-xs max-h-120 object-cover rounded-lg shadow-lg"
         />

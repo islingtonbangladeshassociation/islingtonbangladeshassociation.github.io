@@ -10,6 +10,7 @@ git init
 git add -A
 git commit -m 'Deploy'
 
-git push -f https://robienoor@github.com/robienoor/ibal.git main
+git push -f https://github.com/islingtonbangladeshassociation/islingtonbangladeshassociation.github.io.git main
 
 cd -
+

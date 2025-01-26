@@ -1,6 +1,5 @@
 <template>
   <div class="p-6">
-    <h1>this is an event article</h1>
     <div v-html="eventContent" class="prose"></div>
   </div>
 </template>
@@ -23,8 +22,13 @@ export default {
     async loadEvent() {
       const eventId = this.$route.params.id;
       const filename = `${eventId}.html`;
+
+      // Adjust path for GitHub Pages
+      const basePath = process.env.NODE_ENV === 'production' ? '/' : '/';
+      const filePath = `${basePath}/events/${filename}`;
+
       try {
-        const response = await axios.get(`/articles/${filename}`);
+        const response = await axios.get(filePath);
         this.eventTitle = eventId; // Use a more appropriate title if needed
         this.eventContent = response.data;
       } catch (error) {

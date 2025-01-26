@@ -6,9 +6,6 @@
         <div class="flex space-x-6 mb-4 md:mb-0">
           <router-link to="/jobs" class="text-black hover:text-teal-300">Jobs</router-link>
           <router-link to="/contact" class="text-black hover:text-teal-300">Contact Us</router-link>
-          <a href="https://www.facebook.com" target="_blank" class="text-white hover:text-teal-300">
-            Facebook
-          </a>
         </div>
         <!-- Contact Details -->
         <div class="text-black text-sm">

@@ -1,68 +1,62 @@
 <template>
-  <div class="p-6 space-y-12">
-    <!-- Page Header -->
-    <section class="text-center mb-12">
-      <h1 class="text-5xl font-bold">About Us</h1>
-      <p class="text-md mt-4">Learn more about our journey, mission, and the people behind our success.</p>
+  <div class="max-w-7xl mx-auto px-6 py-12">
+    <h1 class="text-4xl font-bold text-center mb-8">Islington Bangladesh Association (IBA)</h1>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4">Who We Are</h2>
+      <p class="text-lg text-gray-700">
+        The Islington Bangladesh Association (IBA) is a dynamic and inclusive community organisation rooted in the heart of Islington. Since 1984, this BAMER-led charity has been a cornerstone of the community, championing cohesion, skill development, health, and self-reliance. Though small in size, IBA has made a big impact, offering a wide range of practical support and programs designed to uplift and empower residents.
+      </p>
+      <p class="text-lg text-gray-700 mt-4">
+        We work hand-in-hand with Islington Council, the NHS, and over 30 local partners to deliver meaningful change, promoting physical and mental wellbeing, welfare rights, housing, employment opportunities, and more.
+      </p>
     </section>
 
-    <!-- Timeline Section -->
-    <section class="relative">
-      <!-- Vertical line for the timeline -->
-      <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-200"></div>
-
-      <!-- Timeline Item 1 -->
-      <div class="mb-12 flex flex-col md:flex-row items-center">
-        <div class="md:w-1/2 md:pr-8">
-          <h2 class="text-xl font-semibold">Founded in 1984</h2>
-          <p class="mt-2 text-sm">
-                Islington Bangladesh Association (IBA) is an independent charity set up initially as a self-help group by newly settled people of Bangladeshi and other Minority Ethnic heritage.
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4">Our Aims and Objectives</h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="text-xl font-medium">Relief of Poverty, Sickness, and Distress</h3>
+          <p class="text-gray-700">
+            To relieve poverty, sickness, and distress among the Bangladeshi community in the London Borough of Islington, and others in need, particularly through advice and support on welfare rights, housing, and health-related issues.
           </p>
         </div>
-        <div class="md:w-1/2 flex justify-center mt-6 md:mt-0">
-          <img src="https://via.placeholder.com/150" alt="Committee Photo" class="rounded-lg shadow-lg w-48 h-48 object-cover" />
+        <div>
+          <h3 class="text-xl font-medium">Advancement of Education</h3>
+          <ul class="list-disc pl-6 text-gray-700">
+            <li>Providing homework support to schoolchildren.</li>
+            <li>Promoting drug awareness among young people.</li>
+            <li>Offering arts and crafts classes to encourage creative and practical skills.</li>
+            <li>Organising educational and cultural festivals to foster learning and cultural appreciation.</li>
+          </ul>
         </div>
-      </div>
-
-      <!-- Timeline Item 2 -->
-      <div class="mb-12 flex flex-col md:flex-row items-center">
-        <div class="md:w-1/2 md:order-2 md:pl-8">
-          <h2 class="text-xl font-semibold">First Major Event in 2000</h2>
-          <p class="mt-2 text-sm">
-            Our first major event brought together hundreds of community members, celebrating our culture and achievements. 
-            It was a significant milestone that marked our growth.
+        <div>
+          <h3 class="text-xl font-medium">Improvement of Quality of Life</h3>
+          <p class="text-gray-700">
+            To enhance the quality of life of members by promoting equality in all aspects of life, supporting physical and mental health, addressing social isolation, and encouraging sustainable, environmentally friendly lifestyles.
           </p>
         </div>
-        <div class="md:w-1/2 flex justify-center mt-6 md:mt-0">
-          <img src="https://via.placeholder.com/150" alt="Event Photo" class="rounded-lg shadow-lg w-48 h-48 object-cover" />
-        </div>
       </div>
+    </section>
 
-      <!-- Timeline Item 3 -->
-      <div class="mb-12 flex flex-col md:flex-row items-center">
-        <div class="md:w-1/2 md:pr-8">
-          <h2 class="text-xl font-semibold">Expansion in 2010</h2>
-          <p class="mt-2 text-sm">
-            As our organization grew, we expanded our services to include educational programs, cultural events, and community support initiatives.
-          </p>
-        </div>
-        <div class="md:w-1/2 flex justify-center mt-6 md:mt-0">
-          <img src="https://via.placeholder.com/150" alt="Expansion Photo" class="rounded-lg shadow-lg w-48 h-48 object-cover" />
-        </div>
-      </div>
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4">Our Management</h2>
+      <p class="text-lg text-gray-700">
+        The Islington Bangladesh Association (IBA) thrives under the leadership of a dedicated and skilled Board of Directors, elected by the service users' membership every two years. The Board represents the voice of the community and is responsible for setting the charity’s vision, mission, and values.
+      </p>
+      <p class="text-lg text-gray-700 mt-4">
+        Comprising 13 members with expertise in community development, finance, fundraising, communications, and charity management, the Board is deeply connected to the local community and ensures informed decision-making to deliver meaningful impact.
+      </p>
+    </section>
 
-      <!-- Timeline Item 4 -->
-      <div class="mb-12 flex flex-col md:flex-row items-center">
-        <div class="md:w-1/2 md:order-2 md:pl-8">
-          <h2 class="text-xl font-semibold">Looking Ahead</h2>
-          <p class="mt-2 text-sm">
-            We continue to strive for excellence in all our endeavors. Our future plans include expanding our reach, helping more people, and creating a lasting impact on the community.
-          </p>
-        </div>
-        <div class="md:w-1/2 flex justify-center mt-6 md:mt-0">
-          <img src="https://via.placeholder.com/150" alt="Future Vision" class="rounded-lg shadow-lg w-48 h-48 object-cover" />
-        </div>
-      </div>
+    <section>
+      <h2 class="text-2xl font-semibold mb-4">Our Staff Team</h2>
+      <p class="text-lg text-gray-700">
+        The IBA's staffing team is led by an Executive Director with over 40 years of expertise in charity management. Our dedicated staff and volunteers bring a rich blend of skills, knowledge, and experience to design and deliver culturally sensitive services, advancing community development, and fostering engagement.
+      </p>
+      <p class="text-lg text-gray-700 mt-4">
+        Together, the staff and volunteers work to strengthen community cohesion, support health equity, promote sustainability, and create a more inclusive and connected Islington.
+      </p>
     </section>
   </div>
 </template>
@@ -74,5 +68,5 @@ export default {
 </script>
 
 <style scoped>
-/* Add specific styles if needed */
+/* You can add additional custom styling here if needed */
 </style>
