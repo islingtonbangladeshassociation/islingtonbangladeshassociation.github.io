@@ -98,7 +98,7 @@
 
         <div class="flex justify-center">
           <img
-            :src="require('@/assets/posters/fitness.jpg')"
+            :src="require('@/assets/posters/fitness.png')"
             alt="Sample Image"
             class="max-w-xs max-h-120 object-cover shadow-lg"
           />

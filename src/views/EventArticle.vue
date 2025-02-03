@@ -21,7 +21,7 @@ export default {
   methods: {
     async loadEvent() {
       const eventId = this.$route.params.id;
-      const filename = `${eventId}.html`;
+      const filename = `${eventId}/index.html`;
 
       // Adjust path for GitHub Pages
       // const basePath = process.env.NODE_ENV === 'production' ? '/' : '/';
