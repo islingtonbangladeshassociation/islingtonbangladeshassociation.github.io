@@ -25,11 +25,11 @@
         <p class="text-sm text-gray-500 mb-4">{{ formatDate(event.date) }}</p>
         <p class="text-lg mb-4">{{ event.description }}</p>
         <div class="flex space-x-4">
-          <img
-            v-if="event.image"
-            :src="event.image"
-            alt="Event Image"
-            class="h-40 w-40 object-cover rounded-lg"
+          <img 
+            v-if="event.image" 
+            :src="event.image.startsWith('http') ? event.image : `${event.image}`" 
+            alt="Event Image" 
+            class="h-40 w-40 object-cover rounded-lg" 
           />
         </div>
       </div>
@@ -63,13 +63,22 @@ export default {
       events: [
         // Sample events data with ids for routing
         {
-          id: 1,
+          id: 'community_gathering',
           title: 'Community Gathering',
           date: '2024-09-15',
           description:
             'Join us for our monthly community gathering where we discuss local issues, share ideas, and enjoy some food together.',
           image:
             'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg',
+        },
+        {
+          id: 'summer_trip_24',
+          title: 'Summer Trip 24',
+          date: '2024-08-13',
+          description:
+            'A trip to Bournemouth beach for the community. Bring family and friends!',
+          image:
+            '/events/summer_trip_24/SummerDayTrip24Leaflet.jpg'
         },
         // Add more events as needed
       ],
