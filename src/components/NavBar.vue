@@ -9,7 +9,7 @@
           <span class="text-black hover:text-blue-500 cursor-pointer">About Us</span>
           <ul class="absolute left-0 mt-2 w-40 bg-white border border-gray-200 shadow-md rounded-md opacity-0 group-hover:opacity-100 transition-opacity">
             <li><router-link to="/about/aboutus" class="block px-4 py-2 text-black hover:bg-gray-100">Our Story</router-link></li>
-            <li><router-link to="/about/reports" class="block px-4 py-2 text-black hover:bg-gray-100">Annual Reports</router-link></li>
+            <!-- <li><router-link to="/about/reports" class="block px-4 py-2 text-black hover:bg-gray-100">Annual Reports</router-link></li> -->
           </ul>
         </li>
         <li><router-link to="/services" class="text-black hover:text-blue-500">Services</router-link></li>
